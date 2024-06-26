@@ -19,7 +19,8 @@ DevOps Tools:
 4. SonarQube
 5. Nexus Repository
 6. Docker
-7. Kubernetes
-8. Trivy
-9. Prometheus
-10. Grafana
+7. Quality Gates
+8. Kubernetes
+9. Trivy
+10. Prometheus
+11. Grafana
