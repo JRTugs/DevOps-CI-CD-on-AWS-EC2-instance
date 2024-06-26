@@ -1,0 +1,28 @@
+#  Setting up Subnet VPC
+
+## Assigning subnet on each VPC
+
+**1. Create Subnet on VPC1**
+
+  - On the Dashboard on the left, Click Subnets
+  - On the top right, Click "Create Subnet"
+
+  ![image](https://github.com/JRTugs/DevOps-CI-CD-on-AWS-EC2-instance/assets/29426766/61277cd5-f474-4de9-9de0-1eb19d8ebf03)
+
+  - On the Create Subnet window, Under VPC ID, Select VPC1 on the dropdown
+  - Under Subnet Name, Input a name
+
+  ![image](https://github.com/JRTugs/DevOps-CI-CD-on-AWS-EC2-instance/assets/29426766/e455e98e-4e87-457b-ac6b-0ec0ccf4a15f)
+
+  - Assign IPv4 Subnet under IPv4 subnet CIDR block
+  - Once completed, Click "Create Subnet"
+
+  ![image](https://github.com/JRTugs/DevOps-CI-CD-on-AWS-EC2-instance/assets/29426766/3c099c94-399d-44f6-bb71-8d3f71443ada)
+
+**2. Create Subnet on VPC2**
+
+  - Follow the steps above and select VPC2 and assign the proper IPv4 subnet CIDR block for VPC2
+
+**3. Final Output**
+
+  ![image](https://github.com/JRTugs/DevOps-CI-CD-on-AWS-EC2-instance/assets/29426766/5ae3c226-bef6-439b-8c89-335bc2839426)
