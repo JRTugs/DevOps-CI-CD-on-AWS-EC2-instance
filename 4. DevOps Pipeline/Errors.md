@@ -19,7 +19,7 @@
 sh "trivy fs --format template --template '@/usr/local/share/trivy/templates/html.tpl' -o trivy-fs-report.html ."
 ```
 
-# #2. SonarQube Analysis
+## 2. SonarQube Analysis
   - SonarQube Analysis stuck
   - tried to check pipeline syntax and it seem not able to see the sonarqube instance
 
@@ -34,3 +34,14 @@ sh "trivy fs --format template --template '@/usr/local/share/trivy/templates/htm
   - Search SonarQube Servers and out the infromation
 
   ![image](https://github.com/JRTugs/DevOps-CI-CD-on-AWS-EC2-instance/assets/29426766/c042f818-408b-421b-9105-ff42ba68ba8a)
+
+
+##3. Publish to Nexus
+  - Error in the logs showing Jenkins not able to connect to Nexus server.
+  - Upon checking, it was connecting to a different github and thus using a different pom.xml file
+    
+  ![image](https://github.com/JRTugs/DevOps-CI-CD-on-AWS-EC2-instance/assets/29426766/55ce1379-e816-4918-a45f-b0cfd21129a2)
+
+**Solution**
+  - Updated the correct github repository
+
