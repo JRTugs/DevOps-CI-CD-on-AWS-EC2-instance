@@ -52,3 +52,7 @@ kubectl describe service -n webapps
   - Check if kubernetes worker nodes are up and running and if number of replica is ok
 
   ![image](https://github.com/JRTugs/DevOps-CI-CD-on-AWS-EC2-instance/assets/29426766/6792bbf7-2637-49c4-9ce1-9a712b9de465)
+
+**7. Pipeline Stage View**
+
+  ![image](https://github.com/JRTugs/DevOps-CI-CD-on-AWS-EC2-instance/assets/29426766/ad7db973-cb27-48f5-bea8-b21139a2d4e7)
